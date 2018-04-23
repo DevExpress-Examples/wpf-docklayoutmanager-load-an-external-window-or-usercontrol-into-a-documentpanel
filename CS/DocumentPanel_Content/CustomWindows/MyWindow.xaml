@@ -1,0 +1,13 @@
+﻿<Window x:Class="DocumentPanel_Content.MyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MyWindow" Height="300" Width="300">
+    <Grid>
+        <Button x:Name="btnLeft" Content="Left" Height="40" HorizontalAlignment="Left" Margin="20,104,0,0"  VerticalAlignment="Top" Width="80" Click="btnLeft_Click" />
+        <Button x:Name="btnUp" Content="Up" Height="40" HorizontalAlignment="Left" Margin="104,50,0,0" VerticalAlignment="Top" Width="80" Click="btnUp_Click" />
+        <Button x:Name="btnRight" Content="Right" Height="40" HorizontalAlignment="Left" Margin="188,104,0,0"  VerticalAlignment="Top" Width="80" Click="btnRight_Click" />
+        <Button x:Name="btnDown" Content="Down" Height="40" HorizontalAlignment="Left" Margin="104,158,0,0" VerticalAlignment="Top" Width="80" Click="btnDown_Click" />
+        <Button Content="+" Height="29" HorizontalAlignment="Left" Margin="128,112,0,0" Name="btnTarget" VerticalAlignment="Top" Width="37" />
+        <Label Content="These controls are defined in another XAML file" Height="26" HorizontalAlignment="Left" Margin="10,10,0,0" Name="label1" VerticalAlignment="Top" Width="263" />
+    </Grid>
+</Window>
