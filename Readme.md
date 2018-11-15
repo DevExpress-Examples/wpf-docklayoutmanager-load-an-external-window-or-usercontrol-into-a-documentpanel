@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/DocumentPanel_Content/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/DocumentPanel_Content/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/DocumentPanel_Content/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DocumentPanel_Content/MainWindow.xaml.vb))
+<!-- default file list end -->
 # How to: Load an External Window or UserControl into a DocumentPanel
 
 
