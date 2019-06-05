@@ -36,12 +36,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Printing.v13.1.Core" />
-    <Reference Include="DevExpress.Data.v13.1" />
-    <Reference Include="DevExpress.Xpf.Mvvm.v13.1" />
-    <Reference Include="DevExpress.Xpf.Core.v13.1" />
-    <Reference Include="DevExpress.Xpf.Docking.v13.1" />
-    <Reference Include="DevExpress.Xpf.Layout.v13.1.Core" />
+    <Reference Include="DevExpress.Printing.v11.2.Core" />
+    <Reference Include="DevExpress.Data.v11.2" />
+    <Reference Include="DevExpress.Xpf.Mvvm.v11.2" />
+    <Reference Include="DevExpress.Xpf.Core.v11.2" />
+    <Reference Include="DevExpress.Xpf.Docking.v11.2" />
+    <Reference Include="DevExpress.Xpf.Layout.v11.2.Core" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
