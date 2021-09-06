@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Windows
 Imports System.Windows.Media.Imaging
 Imports DevExpress.Xpf.Docking
@@ -10,6 +9,7 @@ Namespace DocumentPanel_Content
 	''' </summary>
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub
@@ -29,6 +29,8 @@ Namespace DocumentPanel_Content
 
 		Private Sub btnAddDockPanel_ItemClick(ByVal sender As Object, ByVal e As DevExpress.Xpf.Bars.ItemClickEventArgs)
 			panel1 = dockLayoutManager1.DockController.AddDocumentPanel(documentGroup1, New Uri("CustomWindows\UserControl1.xaml", UriKind.Relative))
+'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
+'ORIGINAL LINE: panel1.Caption = "Document " + (ctr++).ToString();
 			panel1.Caption = "Document " & (ctr).ToString()
 			ctr += 1
 

@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Text
@@ -19,6 +18,7 @@ Namespace DocumentPanel_Content
 	''' </summary>
 	Partial Public Class UserControl1
 		Inherits UserControl
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub

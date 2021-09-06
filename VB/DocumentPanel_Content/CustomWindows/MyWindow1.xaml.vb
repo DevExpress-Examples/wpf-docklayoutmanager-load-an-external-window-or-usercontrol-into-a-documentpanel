@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Text
@@ -18,6 +17,7 @@ Namespace DocumentPanel_Content
 	''' </summary>
 	Partial Public Class MyWindow1
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub
