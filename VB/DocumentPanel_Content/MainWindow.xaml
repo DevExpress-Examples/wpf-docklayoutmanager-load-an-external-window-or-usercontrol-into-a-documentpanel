@@ -37,7 +37,7 @@
                 <dxdo:LayoutGroup>
                     <dxdo:DocumentGroup x:Name="documentGroup1" SelectedTabIndex="1" DestroyOnClosingChildren="False" MDIStyle="MDI">
                         <dxdo:DocumentPanel x:Name="docPanel1" Caption="Panel 1" MDISize="300,250"/>
-                        <dxdo:DocumentPanel x:Name="docPanel2" Caption="Panel 2" MDILocation="100,100"  MDISize="300,250" Content="{dxdo:RelativeUri UriString=CustomWindows\\MyWindow.xaml}"/>
+                        <dxdo:DocumentPanel x:Name="docPanel2" Caption="Panel 2" MDILocation="100,100" MDISize="300,250" Content="{dxdo:RelativeUri UriString=/DocumentPanel_Content;component/CustomWindows/MyWindow.xaml}"/>
                     </dxdo:DocumentGroup>
                 </dxdo:LayoutGroup>
             </dxdo:DockLayoutManager.LayoutRoot>
