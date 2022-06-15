@@ -42,7 +42,7 @@ In the example, the XAML file defines a UserControl object. The example's code u
 
 In the example, you can the "Set DataContext for UserControl" button to see this in action.
 
-![image](https://user-images.githubusercontent.com/12169834/173899391-ef700d6d-ef46-4c4a-9253-3bdce255f65c.png)
+![image](https://user-images.githubusercontent.com/12169834/173901572-b68fad40-747c-412f-af89-dc8bbc99804e.png)
 
 <!-- default file list -->
 ## Files to Look At:
