@@ -40,7 +40,7 @@ In the example, the XAML file defines a UserControl object. The example's code u
 (panel1.Control as UserControl1).SetDataContext(imageInfo);
 ```
 
-In the example, you can the "Set DataContext for UserControl" button to see this in action.
+In the example, you can the _Set DataContext for UserControl_ button to see this in action.
 
 ![image](https://user-images.githubusercontent.com/12169834/173901572-b68fad40-747c-412f-af89-dc8bbc99804e.png)
 
