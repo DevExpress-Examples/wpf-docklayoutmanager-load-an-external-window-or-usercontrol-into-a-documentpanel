@@ -11,20 +11,16 @@ namespace DocumentPanel_Content {
         public MainWindow() {
             InitializeComponent();
         }
-
         void ActivateItem(BaseLayoutItem item) {
             dockLayoutManager1.LayoutController.Activate(item);
         }
-
         //Load MyWindow1.xaml into docPanel1
         private void btnSetContent_ItemClick(object sender, DevExpress.Xpf.Bars.ItemClickEventArgs e) {
             ActivateItem(docPanel1);
             docPanel1.Content = new Uri(@"CustomWindows\MyWindow1.xaml", UriKind.Relative);
         }
-
         DocumentPanel panel1 = null;
         int ctr = 1;
-
         private void btnAddDockPanel_ItemClick(object sender, DevExpress.Xpf.Bars.ItemClickEventArgs e) {
             panel1 = dockLayoutManager1.DockController.AddDocumentPanel(documentGroup1,
                 new Uri(@"CustomWindows\UserControl1.xaml", UriKind.Relative));
@@ -42,11 +38,7 @@ namespace DocumentPanel_Content {
             imageInfo.Description = uri.ToString();
             //Invoke a method on the loaded UserControl
             (panel1.Control as UserControl1).SetDataContext(imageInfo);
-
             ActivateItem(panel1);
         }
-
-
-
     }
 }
