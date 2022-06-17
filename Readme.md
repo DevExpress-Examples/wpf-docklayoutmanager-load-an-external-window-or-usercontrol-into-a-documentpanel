@@ -9,7 +9,8 @@ You can define a Window, Page, or UserControl in external XAML files and load th
 
 This example loads an external Window and UserControl into DocumentPanels in three ways:
 
-1. Use the [DocumentPanel.Content](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.ContentItem.Content) inherited property to load the content of _MyWindow.xaml_ into a [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.DocumentPanel) at design time (in XAML). The **Content** property accepts a [Uri](https://docs.microsoft.com/en-us/dotnet/api/system.uri) object that is referred to a XAML file and defines a Window, Page or UserControl.
+1. Use the [DocumentPanel.Content](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.ContentItem.Content) inherited property to load the content of _MyWindow.xaml_ into a [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.DocumentPanel) at design time (in XAML). The **Content** property accepts an [Uri](https://docs.microsoft.com/en-us/dotnet/api/system.uri) object that is linked to a XAML file and defines a Window, Page, or UserControl.
+
 
     ```xaml
     <dxdo:DocumentPanel x:Name="docPanel2" Caption="Panel 2" Content="{dxdo:RelativeUri UriString=CustomWindows\\MyWindow.xaml}"/>
