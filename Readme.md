@@ -31,7 +31,7 @@ This example loads an external Window and UserControl into DocumentPanels in thr
     panel1.Caption = "Document " + (ctr++).ToString();
     ```
 
-In the example, the XAML file defines a UserControl object. The example's code uses the [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.DocumentPanel)'s [Control](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel.Control) inherited property to access the loaded UserControl and then invokes a UserControl's method:
+In the example, the XAML file defines a UserControl object. The example's code uses the [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager.DocumentPanel)'s [Control](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutPanel.Control) inherited property to access the loaded UserControl, and then invokes the UserControl's method:
 
 ```cs
 //...
