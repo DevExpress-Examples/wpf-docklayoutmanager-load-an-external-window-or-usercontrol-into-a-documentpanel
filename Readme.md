@@ -43,14 +43,12 @@ In the example, the XAML file defines a UserControl object. The example's code u
 
 In the example, you can the _Set DataContext for UserControl_ button to see this in action.
 
-![image](https://user-images.githubusercontent.com/12169834/173901572-b68fad40-747c-412f-af89-dc8bbc99804e.png)
+![image](https://github.com/DevExpress-Examples/wpf-docklayoutmanager-load-an-external-window-or-usercontrol-into-a-documentpanel/assets/65009440/4d10f9ef-c02c-4619-98e2-903da24fb107)
 
-<!-- default file list -->
-## Files to Look At:
+## Files to Review
 
 * [MainWindow.xaml](./CS/DocumentPanel_Content/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DocumentPanel_Content/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DocumentPanel_Content/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DocumentPanel_Content/MainWindow.xaml.vb))
-<!-- default file list end -->
 
 ## Documentation
 
