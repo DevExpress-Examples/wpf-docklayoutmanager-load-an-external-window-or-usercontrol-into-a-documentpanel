@@ -63,7 +63,7 @@ panel1.Caption = "Document " + (ctr++).ToString();
 
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-docklayoutmanager-load-an-external-window-or-usercontrol-into-a-documentpanel&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-docklayoutmanager-load-an-external-window-or-usercontrol-into-a-documentpanel&~~~was_helpful=no)
 
